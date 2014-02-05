@@ -29,7 +29,6 @@ print 'Total Unique Visitors: ', n
 print 'Total Impressions: ', impressions
 print 'Average Age: ', age/n
 print 'Average Clicks Per Impressions: ', clicks/impressions
-print oldest_person
 
 
 
