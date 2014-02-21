@@ -26,7 +26,7 @@ mammals = mammals.sort('brain')
 mammals_log_sort = mammals.sort('log_predict')
 
 
-plt.scatter(body, mammals_log_brain, c='b', marker='o')
+pl
 
 plt.plot(body, lm/predict(body), exp(log_body),np.exp(log_lm.predict(log_body)))
 show.plt
