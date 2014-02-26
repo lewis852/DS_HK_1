@@ -31,7 +31,7 @@ otherwise, we know we just need to make a submission, so the output has to be so
 
 
 """
-
+import pandas as pd
 from pandas import read_csv, DataFrame
 from sklearn import naive_bayes, cross_validation, metrics
 from sklearn.feature_extraction.text import CountVectorizer
