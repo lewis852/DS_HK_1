@@ -4,7 +4,7 @@ import numpy as np
 from sklearn import feature_selection, linear_model
 
 # Create a new dataframe
-base = pd.read_csv('./baseball.csv')
+base = pd.read_csv('/Users/Lewis/Documents/Datascience/DS_HK_1/lessons/lewis852/lesson15/baseball.read_csv')
 
 # Select numerical feature
 base = pd.DataFrame(base, columns=["HR", "RBI", 'R', "G", "SB", "salary", 'height', 'weight', 'yearID'])
